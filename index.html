@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Abdelhadi sajir & Anouar bouchehboun</title>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    </head>
+    <body class="h-full w-full bg-gradient-to-r from-green-300 via-red-300 to-blue-300">
+       <!--header-->
+        <div class="bg-gradient-to-r from-green-300 via-red-300 to-blue-300 shadow-xl flex justify-between" >
+            <img src="icons/dar.png" alt="logo" class="h-16 w-52 ml-8 py-1">
+            <button onclick="document.location='page-login.html'" class="bg-red-400 h-9 w-26 rounded-2xl px-2 text-sm font-bold shadow-xl hover:bg-red-500 items-end mt-4 mr-9 focus:outline-none" id="Decon" >LOGOUT</button>
+        </div>
+        <div class="flex flex-nowrap">
+        <!--button menus-->    
+            <div class=" px-4 h-full w-60  shadow-xl ">
+                <button class="bg-green-400 h-16 w-52 rounded-2xl px-2 mb-12 mt-12 font-bold shadow-xl hover:bg-green-500 focus:outline-none" id="catpizza">PIZZERIA<img class="h-8 w-8 inline-block ml-12" src="icons/pizza.png" ></button>
+                <button class="bg-green-400 h-16 w-52 rounded-2xl px-2 mb-12 font-bold shadow-xl hover:bg-green-500 focus:outline-none" id="catcafee">CAFEE SHOP<img class="h-8 w-8 inline-block ml-6" src="icons/coffee.png" ></button>
+                <button class="bg-green-400 h-16 w-52 rounded-2xl px-2 mb-12 font-bold shadow-xl hover:bg-green-500 focus:outline-none" id="catglaces" >GLACES<img class="h-8 w-8 inline-block ml-12" src="icons/ice-cream.png" ></button>
+                <button class="bg-green-400 h-16 w-52 rounded-2xl px-2 mb-12 font-bold shadow-xl hover:bg-green-500 focus:outline-none" id="catboissans">BOISSANS<img class="h-8 w-8 inline-block ml-6" src="icons/iced-tea.png" ></button>
+                <button class="bg-green-400 h-16 w-52 rounded-2xl px-2 mb-12 font-bold shadow-xl hover:bg-green-500 focus:outline-none" id="catrestau">RESTAURANT<img class="h-8 w-8 inline-block ml-4" src="icons/restaurant.png" ></button>
+                <button class="bg-green-400 h-16 w-52 rounded-2xl px-2 mb-24 font-bold shadow-xl hover:bg-green-500 focus:outline-none" id="catdivers">DIVERS<img class="h-8 w-8 inline-block ml-14" src="icons/cupcake.png" ></button>
+            </div>
+            
+         <!--button menu pizza-->
+           <div class="grid grid-cols-3 pr-12" id="mpizza">
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2  mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none "id="p1">Pizza Junior</button>
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="p2">Pizza Sénior</button>
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="p3">Pizza Méga</button>
+            </div>     
+              <!--button menu cafee-->
+              <div class="grid grid-cols-3 pr-12" id="mcafee">
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="c1">Café simple</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="c2">Café double</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="c3">Café Capsule</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="c4">Café Latté</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="c5">Cappuccino</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="c6">Lait Chocolat</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="c7">Thé à la ververine</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="c8">Thé à la menthe</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="c9">Thé glacé</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="c10">Lait chaud</button>
+           </div>  
+                 <!--button menu Glaces-->
+              <div class="grid grid-cols-3 pr-12" id="mglaces">
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="g1">Glace au chocolat</button>
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="g2">Glace classique</button>
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="g3">Glace pistache et vanille</button>
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="g4">Glace Amande et vanille</button>
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="g5">Glace aux smarties</button>
+              </div>    
+               
+             <!--button menu Boissans-->
+              <div class="grid grid-cols-3 pr-12" id="mboissans">
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="b1">Coca-cola</button>
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="b2">Fanta</button>
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="b3">Huawai</button>
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="b4">Orangina</button>
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="b5">Eau mineral</button>
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="b6">Jus d’orange</button>
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="b7">Jus de lait aux amandes</button>
+                 <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none"id="b8">Smoothie</button>
+              </div>    
+             <!--button menu restaurant-->
+              <div class="grid grid-cols-3 pr-12" id="mrestau">
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none" id="r1">Salade niçoise</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none" id="r2">Salade marocaine</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none" id="r3">Salade César</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none" id="r4">Plat Poulet au Four</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none" id="r5">Plat Poisson à la Plancha</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none" id="r6">Plat Viande hachée Boulettes</button>
+             </div>    
+
+             <!--button menu divers-->
+              <div class="grid grid-cols-3 pr-12" id="mdivers">
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none" id="d1">Clinex</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none" id="d2">Briquet</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 mt-16 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none" id="d3">Kinder Surprise</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none" id="d4">Chuopa Chup</button>
+                <button class="bg-red-400 h-16 w-52 rounded-2xl px-2 font-bold ml-8 shadow-xl hover:bg-red-500 focus:outline-none" id="d5">Snikers</button>
+             </div>    
+            
+          <!--right side of site-->
+           <div class="ml-8"  >
+                    <div class="bg-blue-400 h-5/6 w-full rounded-2xl mt-8 shadow-xl ">
+                        <h1 class="text-white text-center pt-12 text-2xl font-bold ">TOTAL :<span class="pl-8" id="total_commande" ></span> DH</h1>
+                        <select class=" h-96 w-full mt-8"multiple id="liste">             
+                        </select>
+                        <div class="px-16">
+                            <button  class="bg-green-400 h-16 w-28 rounded-2xl px-4 mt-10 font-bold ml-8 shadow-xl hover:bg-green-500 focus:outline-none" id="VALIDER">VALIDER</button>       
+                            <button class="bg-red-500 h-16 w-28 rounded-2xl px-4 mt-10 font-bold ml-4 mr-8 shadow-xl hover:bg-red-600 focus:outline-none" id="ANNULER">ANNULER</button>    
+                        </div>
+                         
+                    </div> 
+            </div> 
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <script>
+    
+    
+        </script>      
+           
+    </body>
+</html>

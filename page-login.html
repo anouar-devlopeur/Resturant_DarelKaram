@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body class="h-full w-full bg-gradient-to-r from-green-300 via-red-300 to-blue-300">
+       <!--header-->
+        <div class="bg-gradient-to-r from-green-300 via-red-300 to-blue-300 shadow-xl flex justify-between">
+            <img src="icons/dar.png" alt="logo" class="h-16 w-52 ml-8 py-1">
+
+        </div>
+        <div class="ml-96">
+           <form class="bg-white rounded-xl inline-block px-6 py-12 self-center ml-48 shadow-xl mt-28">
+                <div><img src="icons/cashier icon.png" alt="" class="h-32 w-32 object-center-top mt-6 ml-24 "></div>
+                <div><label>Login :</label><input type="text" name="Login" class="w-52 h-8 bg-gray-100 mt-8 ml-14 shadow-md" id="utilisateur"></div>
+                <div><label>Password :</label><input type="password" name="Password" class="w-52 h-8 bg-gray-100 mt-4 ml-8 shadow-md" id="motdepasse"></div>
+                <div class="mt-2"><span class="text-xs text-red-600 " id="erreur" hidden>le nom d'utilisatteur ou le mot de passse et incorrect!</span></div>
+                <div><button type="submit" class="bg-blue-400 h-9 w-32 rounded-lg px-4 text-sm font-bold shadow-xl hover:bg-blue-500 focus:outline-none ml-24 mt-12 mb-12" id="con"> LOG IN</button></div>
+           </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="authentif.js">
+
+
+        </script>
+    </body>
+</html>
